@@ -1,12 +1,13 @@
-import { useEffect, useRef, useState } from 'react';
-import InfiniteScroll from 'react-infinite-scroll-component';
-import { fetchAllPokemons, fetchPokemon } from './api/fetchPokemons';
-import PokemonCard from './components/PokemonCard';
-import { SkeletonCard } from './components/SkeletonCard';
 
-import { classNames, sortItems } from './common/helper';
-
-import './theme/index.css'
+import "./theme/index.css"
+import {useTheme} from "./theme/useTheme";
+import PokemonCard from "./components/PokemonCard";
+import SkeletonCard from "./components/SkeletonCard"
+import {useEffect, useState, useRef} from "react";
+import {fetchPokemons} from "./api/fetchPokemons";
+import {fetchPokemonByName} from "./api/fetchPokemonByName";
+import InfiniteScroll from "react-infinite-scroll-component";
+import { classNames, sortItems } from "./common/helper";
 
 function App() {
 
