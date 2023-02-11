@@ -3,7 +3,7 @@ import InfiniteScroll from 'react-infinite-scroll-component';
 import { fetchAllPokemons, fetchPokemon } from './api/fetchPokemons';
 import PokemonCard from './components/PokemonCard';
 import { SkeletonCard } from './components/SkeletonCard';
-
+import {fetchPokemonByName} from "./api/fetchPokemonByName";
 import { classNames, sortItems } from './common/helper';
 
 import './theme/index.css'
