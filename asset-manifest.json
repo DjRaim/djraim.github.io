@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/djraim.github.io/static/css/main.f9a41126.css",
-    "main.js": "/djraim.github.io/static/js/main.633b1492.js",
-    "index.html": "/djraim.github.io/index.html",
-    "main.f9a41126.css.map": "/djraim.github.io/static/css/main.f9a41126.css.map",
-    "main.633b1492.js.map": "/djraim.github.io/static/js/main.633b1492.js.map"
+    "main.css": "/poketest/static/css/main.f9a41126.css",
+    "main.js": "/poketest/static/js/main.633b1492.js",
+    "index.html": "/poketest/index.html",
+    "main.f9a41126.css.map": "/poketest/static/css/main.f9a41126.css.map",
+    "main.633b1492.js.map": "/poketest/static/js/main.633b1492.js.map"
   },
   "entrypoints": [
     "static/css/main.f9a41126.css",
