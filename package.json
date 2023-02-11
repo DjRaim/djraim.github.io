@@ -2,7 +2,7 @@
   "name": "djraim.github.io",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://popensislam.github.io/react-lesson-20-02",
+  "homepage": "https://djraim.github.io/poketest/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
